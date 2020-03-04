@@ -7,4 +7,41 @@
   box-sizing: border-box;
 }
 
+body {
+  display: block;
+}
+
 /* ---------Body's-children-classes-- */
+
+main {
+  width: 100%;
+  height: 65vh;
+  background-image: url(images/mainImage.jpg);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 130%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 25vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer {
+  width: 100%;
+  height: 20vh;
+  display: block;
+}
+
+/* --------detailed-level---------- */
+
+/* navigation bar */
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
