@@ -88,6 +88,11 @@ nav {
   padding: 0.5rem;
 }
 
+.nav-btn > img {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
 .search-btn {
   width: 100%;
   height: 100%;
