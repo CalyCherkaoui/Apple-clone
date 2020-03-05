@@ -36,7 +36,12 @@ main {
 footer {
   width: 100%;
   height: 10vh;
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "online-store info-footer"
+    "footer-bottom footer-bottom";
 }
 
 /* --------detailed-level---------- */
@@ -115,4 +120,45 @@ nav {
   background-repeat: no-repeat;
   background-position-y: 96%;
   background-position-x: 38%;
+}
+
+/* footer-section */
+
+.info-footer {
+  justify-self: end;
+  align-self: center;
+  padding-right: 1.5rem;
+}
+
+.info-footer > a {
+  height: min-content;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  border-right: solid 1px gray;
+  text-decoration: none;
+}
+
+.online-store {
+  justify-self: start;
+  align-self: center;
+  padding-left: 1.5rem;
+}
+
+.online-store > p > a {
+  text-decoration: none;
+}
+
+.footer-bottom {
+  justify-self: start;
+  align-self: start;
+  padding-left: 1.5rem;
+  display: inline-block;
+}
+
+.footer-bottom > p > a {
+  height: min-content;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  border-right: solid 1px gray;
+  text-decoration: none;
 }
