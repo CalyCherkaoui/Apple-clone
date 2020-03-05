@@ -2,7 +2,7 @@
 ## Description
 In this project, I tried to create a clone of the former Apple web page (http://archive.fo/UW4oR). The purpose of this exercise is to apply background styling lessons in CSS and to master the Grid, flex and positioning concept too.
 
-![screenshot]()
+![screenshot] (images/Screenshot.png)
 
 
 ## Built With
@@ -19,7 +19,7 @@ git checkout development
 firefox index.html
 ```
 ## Demo
-https://rawcdn.githack.com/
+https://raw.githack.com/CalyCherkaoui/Apple-clone/tree/development
 
 ## Authors
 👩 **Houda Cherkaoui**
