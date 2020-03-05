@@ -99,10 +99,17 @@ nav {
   text-align: center;
 }
 
-.search-btn > input {
+input[type="text"] {
   width: 70%;
+  height: 60%;
+  box-sizing: border-box;
   margin-right: auto;
   margin-left: auto;
+  border: gray 1px solid;
+  background-color: rgba(128, 128, 128, 0.2);
+  border-radius: 8px;
+  font-size: 12px;
+  color: aliceblue;
 }
 
 /* main titles */
