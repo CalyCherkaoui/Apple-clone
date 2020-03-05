@@ -42,6 +42,9 @@ footer {
   grid-template-areas:
     "online-store info-footer"
     "footer-bottom footer-bottom";
+  font-family: 'Quicksand', sans-serif, Arial;
+  font-weight: 100;
+  font-size: 0.7rem;
 }
 
 /* --------detailed-level---------- */
@@ -65,15 +68,14 @@ nav {
   width: 100%;
   height: 100%;
   background-color: blue;
-  list-style: none;
 }
 
-.nav-tabs-wrapper > li {
+.nav-tabs-wrapper > div {
   align-self: center;
   justify-self: center;
 }
 
-.nav-tabs-wrapper > li > input {
+.nav-tabs-wrapper > div > input {
   width: 10rem;
   margin-right: auto;
   margin-left: auto;
@@ -83,43 +85,72 @@ nav {
 
 .main-titles-wrapper {
   position: absolute;
-  top: 30vh;
-  width: max-content;
+  top: 30%;
+  left: 16vw;
+  width: 68vw;
   margin-left: auto;
   margin-right: auto;
   justify-self: center;
+  font-family: 'Quicksand', sans-serif, Arial;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+}
+
+.main-titles-wrapper > h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  padding: 0.8rem;
+}
+
+.main-titles-wrapper > p {
+  font-weight: normal;
+  font-size: 2rem;
+  padding: 0.8rem;
 }
 
 /* thumbnail */
 
+.frame {
+  font-family: 'Quicksand', sans-serif, Arial;
+  font-weight: normal;
+  color: black;
+  text-align: center;
+}
+
+.frame > h3 {
+  padding-top: 1rem;
+  font-size: 1.6rem;
+}
+
 #fr1 {
   background-image: url(images/thumbnailImg1.jpg);
-  background-size: 100%;
   background-repeat: no-repeat;
   background-position-y: 59%;
+  background-size: cover;
 }
 
 #fr2 {
   background-image: url(images/thumbnailImg2.jpg);
-  background-size: 128%;
   background-repeat: no-repeat;
   background-position-y: 27%;
+  background-size: cover;
 }
 
 #fr3 {
   background-image: url(images/thumbnailImg3.jpg);
-  background-size: 167%;
   background-repeat: no-repeat;
   background-position-y: 61%;
   background-position-x: 89%;
+  background-size: cover;
+  color: aliceblue;
 }
 
 #fr4 {
   background-image: url(images/thumbnailImg4.jpg);
-  background-size: 177%;
   background-repeat: no-repeat;
-  background-position-y: 96%;
-  background-position-x: 38%;
+  background-size: cover;
+  color: aliceblue;
 }
 
 /* footer-section */
@@ -136,6 +167,7 @@ nav {
   padding-left: 0.3rem;
   border-right: solid 1px gray;
   text-decoration: none;
+  color: rgb(0, 136, 204);
 }
 
 .online-store {
@@ -144,8 +176,9 @@ nav {
   padding-left: 1.5rem;
 }
 
-.online-store > p > a {
+.online-store > a {
   text-decoration: none;
+  color: rgb(0, 136, 204);
 }
 
 .footer-bottom {
@@ -155,10 +188,11 @@ nav {
   display: inline-block;
 }
 
-.footer-bottom > p > a {
+.footer-bottom > a {
   height: min-content;
   padding-right: 0.3rem;
   padding-left: 0.3rem;
   border-right: solid 1px gray;
   text-decoration: none;
+  color: rgb(0, 136, 204);
 }
