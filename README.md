@@ -1,6 +1,6 @@
 # Apple-clone
 ## Description
-In this project I tried to creat a clone of the former Apple web page. The purpuse of this exercise is to apply background styling lessons in CSS and to master the Grid, flex and positioning concept too.
+In this project, I tried to create a clone of the former Apple web page (http://archive.fo/UW4oR). The purpose of this exercise is to apply background styling lessons in CSS and to master the Grid, flex and positioning concept too.
 
 ![screenshot]()
 
