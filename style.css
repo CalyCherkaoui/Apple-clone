@@ -28,14 +28,14 @@ main {
 
 .thumbnail {
   width: 100%;
-  height: 25vh;
+  height: 20vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
 footer {
   width: 100%;
-  height: 20vh;
+  height: 10vh;
   display: block;
 }
 
@@ -89,16 +89,30 @@ nav {
 
 #fr1 {
   background-image: url(images/thumbnailImg1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: 59%;
 }
 
 #fr2 {
   background-image: url(images/thumbnailImg2.jpg);
+  background-size: 128%;
+  background-repeat: no-repeat;
+  background-position-y: 27%;
 }
 
 #fr3 {
   background-image: url(images/thumbnailImg3.jpg);
+  background-size: 167%;
+  background-repeat: no-repeat;
+  background-position-y: 61%;
+  background-position-x: 89%;
 }
 
 #fr4 {
   background-image: url(images/thumbnailImg4.jpg);
+  background-size: 177%;
+  background-repeat: no-repeat;
+  background-position-y: 96%;
+  background-position-x: 38%;
 }
