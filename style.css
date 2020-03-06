@@ -9,6 +9,8 @@
 
 body {
   display: block;
+  width: 1024px;
+  height: 830px;
 }
 
 /* ---------Body's-children-classes-- */

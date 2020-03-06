@@ -19,7 +19,7 @@ git checkout development
 firefox index.html
 ```
 ## Demo
-https://raw.githack.com/CalyCherkaoui/Apple-clone/tree/development
+https://rawcdn.githack.com/CalyCherkaoui/Apple-clone/0df75764878d60fd14f3d4edea61f63ef7bb057e/index.html
 
 ## Authors
 👩 **Houda Cherkaoui**
