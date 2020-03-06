@@ -14,7 +14,7 @@ body {
   height: 830px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #EEEEEE;
+  background-color: white;
   border: gray solid 0.5px;
 }
 
@@ -26,9 +26,7 @@ main {
   background-image: url(images/mainImage.jpg);
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-position-y: 130%;
-  /* background-attachment: fixed; */
-  /* background-size: cover; */
+  background-position-y: 136%;
   display: grid;
   grid-template-rows: 3fr 10fr 5fr;
 }
@@ -56,19 +54,20 @@ footer {
   grid-row-start: 1;
   grid-row-end: 2;
   align-self: end;
-  height: 25%;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  height: 24.7%;
+  margin-left: 1.45rem;
+  margin-right: 1.45rem;
+  margin-bottom: 0.45rem;
 }
 
 .nav-tabs-wrapper {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(7, 1fr) 126px;
   box-sizing: border-box;
   background-color: rgb(155, 152, 152);
-  background-image: -webkit-linear-gradient(rgb(100, 99, 99), rgb(87, 84, 84), rgb(128, 124, 124));
-  background-image: -moz-linear-gradient(rgb(100, 99, 99), rgb(87, 84, 84), rgb(128, 124, 124));
-  background-image: linear-gradient(rgb(100, 99, 99), rgb(87, 84, 84), rgb(128, 124, 124));
+  background-image: -webkit-linear-gradient(#787a78, rgb(87, 87, 87), #666a66);
+  background-image: -moz-linear-gradient(#787a78, rgb(87, 87, 87), #666a66);
+  background-image: linear-gradient(#787a78, rgb(87, 87, 87), #666a66);
   border-radius: 6px;
 }
 
@@ -85,7 +84,7 @@ footer {
   font-weight: bold !important;
   text-align: center !important;
   padding: 0.5rem;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .nav-btn > img {
@@ -98,12 +97,14 @@ footer {
   height: 100%;
   text-align: center;
   position: relative;
+  align-self: center;
+  justify-self: center;
 }
 
 input[type="text"] {
-  width: 75%;
+  width: 90%;
   position: absolute;
-  top: 0.4rem;
+  top: 0.6rem;
   left: 0.3rem;
   bottom: 0.4rem;
   right: 0.3rem;
@@ -113,7 +114,7 @@ input[type="text"] {
   border: gray 1px solid;
   background-color: rgba(207, 205, 205, 0.301);
   border-radius: 8px;
-  font-size: 12px;
+  font-size: 14px;
   color: aliceblue;
   transition: 0.3s;
   padding-left: 1.5rem;
@@ -127,8 +128,8 @@ input[type="text"]:focus {
 .search-btn > i {
   position: absolute;
   float: left;
-  left: 1.8rem;
-  top: 0.65rem;
+  left: 1.2rem;
+  top: 0.85rem;
   font-size: 12px;
   color: aliceblue;
 }
@@ -140,21 +141,21 @@ input[type="text"]:focus {
   grid-row-end: 3;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 2.6rem;
   font-family: 'Quicksand', sans-serif, Arial;
   font-weight: normal;
   color: white;
   text-align: center;
 }
 
-#title1 {
-  font-size: 3.5rem;
-  padding: 0.8rem;
-  width: 978px;
+.title {
+  width: auto;
   height: auto;
 }
 
-
+.small-title {
+  padding-top: 2rem;
+}
 
 .main-titles-wrapper > p {
   font-weight: normal;
@@ -175,23 +176,27 @@ input[type="text"]:focus {
   background-image: url(images/thumbnailImg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 #fr2 {
   background-image: url(images/thumbnailImg2.jpg);
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 #fr3 {
   background-image: url(images/thumbnailImg3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 #fr4 {
   background-image: url(images/thumbnailImg4.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -231,7 +236,19 @@ input[type="text"]:focus {
   height: min-content;
   padding-right: 0.3rem;
   padding-left: 0.3rem;
-  border-right: solid 1px gray;
   text-decoration: none;
   color: rgb(0, 136, 204);
+}
+
+.flag {
+  width: 1em;
+  height: auto;
+}
+
+.no-border-left {
+  border-left: none !important;
+}
+
+.border-right {
+  border-right: solid 1px gray;
 }
